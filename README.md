@@ -2,7 +2,9 @@
 
 ## When changing a file:
 
-Using mv is sufficient, and there is no need to modify the ignore settings.
+1. Using `mv` is sufficient, and there is no need to modify the ignore settings.
+  - 🔥issue :  use `git mv` . than `mv` (only mv not working)
+2. Using `git config core.ignorecase false` it remains cached file in github repo.
 
 ## When changing a folder:
 
@@ -15,8 +17,10 @@ Using mv is sufficient, and there is no need to modify the ignore settings.
 
 
 ## 파일 변경할 때
-1. mv 명령어를 사용한다. ignore을 변경하지 않아도 가능하다
-` mv old filename new filename `
+1. `mv` 명령어를 사용한다. ignore을 변경하지 않아도 가능하다
+` git mv old filename new filename `
+  - 🔥주의 :  `git mv` 처럼 git을 붙여야하는 것 같다.  `mv` 사용했을 때 git이 인식하지 않는 경우 발견.
+
 
 ## 폴더 변경할 때
 1. mv는 사용 불가능 : 에러 발생
