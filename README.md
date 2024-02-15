@@ -1,10 +1,10 @@
-## About how to change file/folder name uppercase or reverse
+# About how to change file/folder name uppercase or reverse
 
-# When changing a file:
+## When changing a file:
 
 Using mv is sufficient, and there is no need to modify the ignore settings.
 
-# When changing a folder:
+## When changing a folder:
 
 1. Using mv is not applicable and will result in an error.
 
